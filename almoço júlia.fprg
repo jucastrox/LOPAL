@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 09:37:19 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjEzOzIwMjQtMDItMDY7IjA5OjA0OjQ1ICI7MjI1Mg=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjEzOzIwMjQtMDItMDY7IjA5OjM3OjE5ICI7MTsyMzY3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d" type="Integer" array="False" size=""/>
+            <output expression="&quot;insira n&#250;mero: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;insira n&#250;mero: &quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;insira n&#250;mero: &quot;" newline="True"/>
+            <input variable="c"/>
+            <output expression="&quot;insira n&#250;mero: &quot;" newline="True"/>
+            <input variable="d"/>
+            <declare name="resultado" type="Integer" array="False" size=""/>
+            <assign variable="resultado" expression="a+b+c+d"/>
+            <output expression="&quot;o resultado da soma &#233;: &quot; &amp; resultado" newline="True"/>
+            <input variable="resultado"/>
+        </body>
+    </function>
+</flowgorithm>
