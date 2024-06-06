@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 01:07:39 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjEzOzIwMjQtMDItMDY7IjEyOjQwOjI1ICI7MjI0NA=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjEzOzIwMjQtMDItMDY7IjAxOjA3OjM5ICI7MjsyMzU5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <output expression="&quot;digite o n&#250;mero: &quot;" newline="True"/>
+            <input variable="numero"/>
+            <for variable="numero" start="0" end="20" direction="inc" step="2">
+                <output expression="&quot;a sequ&#234;ncia &#233;: &quot; &amp; numero" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
